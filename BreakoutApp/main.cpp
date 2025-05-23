@@ -1,14 +1,11 @@
-#include "widget.h"
+#include "breakout.h"
 
 #include <QApplication>
-
-
-
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Widget w;
+    Breakout w;
     w.show();
     return a.exec();
 }
