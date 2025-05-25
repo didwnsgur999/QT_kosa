@@ -15,9 +15,13 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 private:
+    //private member variable
     QButtonGroup * buttonGroup;
+    //cal label
     QLabel *m_label;
+    //m_num1=saved num, m_op=saved op
     QString m_num1,m_op;
+    //
     bool m_isFirst;
     const qint32 WIDTH =4;
 
